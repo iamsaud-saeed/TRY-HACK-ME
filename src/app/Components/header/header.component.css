@@ -1,0 +1,9 @@
+.header{
+    background-color: #212c42 !important;
+}
+ul li a{
+    display: flex;
+    flex-direction: column;
+    /* padding: 15px; */
+    align-items: center;
+}
