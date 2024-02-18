@@ -35,6 +35,24 @@ section .section{
     background: #88cc14;
     color: white;
 }
+@keyframes hovering {
+    0% {
+        transform: translate3d(0px, 0px, 0);
+    }
+    25% {
+        transform: translate3d(10px, -10px, 0);
+    }
+    50% {
+        transform: translate3d(5px, 5px, 0);
+    }
+    75% {
+        transform: translate3d(-10px, 10px, 0);
+    }
+    100% {
+        transform: translate3d(0px, 0px, 0);
+    }
+    
+}
 
 /* Adjust as necessary for smaller screen sizes */
 @media screen and (max-width: 992px) {
