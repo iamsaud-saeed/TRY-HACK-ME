@@ -1,0 +1,87 @@
+/* Your existing CSS remains the same */
+
+.jumbotron.star-background {
+    min-height: 100vh; /* Adjust as necessary */
+    padding-bottom: 50px; /* Adjust as necessary */
+}
+
+.short-home-container {
+    height: 100%;
+}
+
+.banner-items-container {
+    height: 100%;
+}
+
+.rocket-man {
+    max-width: 100%;
+    height: auto;
+}
+
+.guideline {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-right: 24px;
+    color: white;
+}
+section .section{
+    background-color: transparent !important;
+}
+.main-heading,
+.main-sub-heading {
+    color: white;
+}
+.btn-hgreen{
+    background: #88cc14;
+    color: white;
+}
+
+/* Adjust as necessary for smaller screen sizes */
+@media screen and (max-width: 992px) {
+    .jumbotron.star-background {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .jumbotron.star-background {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .col-md-9,
+    .col-md-3 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+    /* byte sized css  */
+
+
+    /* .vertical-align-custom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    } */
+    .titleunderline {
+        display: inline-block;
+        width: 90px;
+        height: 4px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        border-radius: 20px;
+        background-color: #88cc14;
+    }
+    .text-lgray {
+        color: #676767;
+    }
+    h3{
+        color: white !important;
+    }
+    .text-lgray{
+        color: white !important;
+    }
