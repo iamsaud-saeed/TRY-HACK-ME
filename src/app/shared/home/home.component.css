@@ -35,6 +35,9 @@ section .section{
     background: #88cc14;
     color: white;
 }
+.rocket-man {
+    animation: hovering 10s infinite;
+}
 @keyframes hovering {
     0% {
         transform: translate3d(0px, 0px, 0);
