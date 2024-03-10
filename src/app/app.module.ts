@@ -8,16 +8,9 @@ import { LayoutComponent } from './shared/layout/layout.component';
 import { HeaderComponent } from './Components/header/header.component';
 import { HomeComponent } from "./shared/home/home.component";
 import { RedTeamComponent } from './shared/red-team/red-team.component';
-import { FormBuilder, ReactiveFormsModule } from '@angular/forms';
-import { AngularFireModule } from '@angular/fire/compat';
-import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
-import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
-import { AngularFireStorageModule } from '@angular/fire/compat/storage';
-import { SocialLoginModule, SocialAuthServiceConfig } from '@abacritt/angularx-social-login';
-import {
-    GoogleLoginProvider,
-    FacebookLoginProvider
-} from '@abacritt/angularx-social-login';
+import {  ReactiveFormsModule } from '@angular/forms';
+
+
 import { BlueTeamComponent } from "./shared/blue-team/blue-team.component";
 
 
@@ -28,7 +21,6 @@ import { BlueTeamComponent } from "./shared/blue-team/blue-team.component";
     bootstrap: [AppComponent],
     imports: [
         BrowserModule,
-        SocialLoginModule,
         ReactiveFormsModule,
         AppRoutingModule,
         HomeComponent,
