@@ -13,22 +13,30 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AngularFireStorageModule } from '@angular/fire/compat/storage';
+import { SocialLoginModule, SocialAuthServiceConfig } from '@abacritt/angularx-social-login';
+import {
+    GoogleLoginProvider,
+    FacebookLoginProvider
+} from '@abacritt/angularx-social-login';
+import { BlueTeamComponent } from "./shared/blue-team/blue-team.component";
 
 
 @NgModule({
     declarations: [
         AppComponent,
-        
     ],
-    providers: [],
     bootstrap: [AppComponent],
     imports: [
         BrowserModule,
+        SocialLoginModule,
         ReactiveFormsModule,
         AppRoutingModule,
         HomeComponent,
         LayoutComponent,
-        LoginComponent
+        LoginComponent,
+        RedTeamComponent,
+        BlueTeamComponent,
+        HeaderComponent
     ]
 })
 export class AppModule { }

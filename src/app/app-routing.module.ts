@@ -13,22 +13,29 @@ export const routes: Routes = [
   },
 
   {
-    path: '',
-    component: LayoutComponent
+    path: 'red-team',
+    loadComponent: () => import('../app/shared/red-team/red-team.component').then(m => m.RedTeamComponent),
   },
   {
     path: 'blue-team',
-    loadComponent: () => import('./shared/blue-team/blue-team.component').then(m => m.BlueTeamComponent),
+    loadComponent: () => import('../app/shared/blue-team/blue-team.component').then(m => m.BlueTeamComponent),
+  },
+  {
+    path: '',
+    loadComponent: () => import('../app/shared/layout/layout.component').then(m => m.LayoutComponent),
+    children: [
+     
+    ]
   },
   {
     path: 'red-team',
     loadComponent: () => import('./shared/red-team/red-team.component').then(m => m.RedTeamComponent),
   },
   {
-    path: 'compete',
-    loadComponent: () => import('./shared/compete/compete.component').then(m => m.CompeteComponent),
+    path: 'blue-team',
+    loadComponent: () => import('./shared/blue-team/blue-team.component').then(m => m.BlueTeamComponent),
   },
-  
+
 ];
 
 @NgModule({

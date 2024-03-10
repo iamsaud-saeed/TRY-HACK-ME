@@ -1,9 +1,9 @@
 <div class="cards">
-    <div class="card red" routerLink="/red-team">
+    <div class="card red" [routerLink]="['/red-team']" (click)="GotoToRoute()">
         <p class="tip"> TEAM RED</p>
         <p class="second-text">DEMO</p>
     </div>
-    <div class="card blue" routerLink="/blue-team">
+    <div class="card blue" routerLink="/blue-team" (click)="GotoToRoute()">
         <p class="tip">TEAM BLUE</p>
         <p class="second-text">BLUE</p>
     </div>

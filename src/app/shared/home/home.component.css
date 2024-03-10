@@ -34,6 +34,7 @@ section .section{
 .btn-hgreen{
     background: #88cc14;
     color: white;
+    
 }
 .rocket-man {
     animation: hovering 10s infinite;
@@ -77,17 +78,6 @@ section .section{
         max-width: 100%;
     }
 }
-
-
-
-    /* byte sized css  */
-
-
-    /* .vertical-align-custom {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    } */
     .titleunderline {
         display: inline-block;
         width: 90px;

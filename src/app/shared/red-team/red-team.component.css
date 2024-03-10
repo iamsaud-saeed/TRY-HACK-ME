@@ -16,6 +16,9 @@
   .cards .green {
     background-color: #22c55e;
   }
+  .parent-margin{
+    margin-top: 9rem;;
+  }
   
   .cards .card {
     display: flex;
