@@ -10,7 +10,7 @@ import { HeaderComponent } from './Components/header/header.component';
 
 })
 export class AppComponent {
-  title = 'tryHackMe_1.0';
+  title = 'CyberGaurd_1.0';
 
   
 }
